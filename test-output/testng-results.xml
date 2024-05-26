@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-24T07:19:36 BST" name="Default suite" finished-at="2024-04-24T07:19:36 BST" duration-ms="142">
+  <suite started-at="2024-05-26T13:16:13 BST" name="Default suite" finished-at="2024-05-26T13:17:33 BST" duration-ms="80421">
     <groups>
     </groups>
-    <test started-at="2024-04-24T07:19:36 BST" name="Default test" finished-at="2024-04-24T07:19:36 BST" duration-ms="142">
-      <class name="jenkins.TestJenkins">
-        <test-method signature="demoJenkinsMethod1()[pri:0, instance:jenkins.TestJenkins@4f2b503c]" started-at="2024-04-24T07:19:36 BST" name="demoJenkinsMethod1" finished-at="2024-04-24T07:19:36 BST" duration-ms="21" status="PASS">
+    <test started-at="2024-05-26T13:16:13 BST" name="Default test" finished-at="2024-05-26T13:17:33 BST" duration-ms="80421">
+      <class name="givenAutomation.automation.jenkinHello">
+        <test-method signature="resumeUpDate()[pri:0, instance:givenAutomation.automation.jenkinHello@61df66b6]" started-at="2024-05-26T13:16:13 BST" name="resumeUpDate" finished-at="2024-05-26T13:17:33 BST" duration-ms="80348" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoJenkinsMethod1 -->
-        <test-method signature="demoJenkinsMethod2()[pri:0, instance:jenkins.TestJenkins@4f2b503c]" started-at="2024-04-24T07:19:36 BST" name="demoJenkinsMethod2" finished-at="2024-04-24T07:19:36 BST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoJenkinsMethod2 -->
-      </class> <!-- jenkins.TestJenkins -->
+        </test-method> <!-- resumeUpDate -->
+      </class> <!-- givenAutomation.automation.jenkinHello -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
